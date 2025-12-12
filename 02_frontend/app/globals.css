@@ -1,0 +1,93 @@
+/* globals.css */
+
+/* 🖤 Reset + Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background-color: #f7f8fa;
+  padding: 20px;
+}
+
+/* 🟦 Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* 🔵 Header */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* 🟢 Form */
+.form-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-wrapper input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form-wrapper input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.form-wrapper button {
+  padding: 10px 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form-wrapper button:hover {
+  background-color: #357ac9;
+}
+
+/* 🟡 Message Cards */
+.message-card {
+  padding: 12px;
+  background: white;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: 0.2s ease;
+}
+
+.message-card:hover {
+  transform: scale(1.01);
+  border-color: #4a90e2;
+}
+
+.message-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.message-date {
+  font-size: 0.8rem;
+  color: #888;
+  margin-left: 8px;
+}
+
+.message-text {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #444;
+}
